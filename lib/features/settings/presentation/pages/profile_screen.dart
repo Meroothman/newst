@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../core/constants/app_colors.dart';
 import '../../../settings/presentation/cubit/settings_cubit.dart';
-import 'country_selection_screen.dart';
-import 'language_selection_screen.dart';
-import 'personal_info_screen.dart';
+// import 'country_selection_screen.dart';
+// import 'language_selection_screen.dart';
+// import 'personal_info_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -94,11 +94,11 @@ class ProfileScreen extends StatelessWidget {
                 icon: Icons.person_outline,
                 title: 'Personal Info',
                 onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => const PersonalInfoScreen(),
-                    ),
-                  );
+                  // Navigator.of(context).push(
+                  //   MaterialPageRoute(
+                  //     builder: (context) => const PersonalInfoScreen(),
+                  //   ),
+                  // );
                 },
               ),
 
@@ -108,11 +108,11 @@ class ProfileScreen extends StatelessWidget {
                 icon: Icons.language,
                 title: 'Language',
                 onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => const LanguageSelectionScreen(),
-                    ),
-                  );
+                  // Navigator.of(context).push(
+                  //   MaterialPageRoute(
+                  //     builder: (context) => const LanguageSelectionScreen(),
+                  //   ),
+                  // );
                 },
               ),
 
@@ -122,11 +122,11 @@ class ProfileScreen extends StatelessWidget {
                 icon: Icons.flag,
                 title: 'Country',
                 onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => const CountrySelectionScreen(),
-                    ),
-                  );
+                  // Navigator.of(context).push(
+                  //   MaterialPageRoute(
+                  //     builder: (context) => const CountrySelectionScreen(),
+                  //   ),
+                  // );
                 },
               ),
 
